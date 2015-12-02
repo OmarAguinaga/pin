@@ -1,0 +1,27 @@
+$body-bg: #ecf0f1;
+$navbar-default-bg : #544444;
+$navbar-default-link-color: white;
+$navbar-default-link-hover-color: #9DDDC0;
+$navbar-height: 60px;
+
+$navbar-default-brand-color: #9DDDC0;
+$jumbotron-bg: white;
+$border-radius-base: 0;
+
+$btn-primary-bg: #9DDDC0;
+
+
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
+
+.h1{
+	color: #544444;
+}
