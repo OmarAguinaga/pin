@@ -13,6 +13,12 @@ $btn-primary-bg: #9DDDC0;
 $alert-info-bg:rgba(156,221,192, 0.6);
 $alert-info-text: white;
 
+$panel-default-heading-bg: #9DDDC0;
+$panel-default-border:  #9DDDC0;
+$panel-default-text: white;
+
+$input-border-focus:#9DDDC0;
+
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
@@ -27,4 +33,7 @@ $alert-info-text: white;
 
 .h1{
 	color: #544444;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
 }
