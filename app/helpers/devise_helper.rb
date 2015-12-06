@@ -15,9 +15,11 @@ module DeviseHelper
                       resource: resource.class.model_name.human.downcase)
 
     html = <<-HTML
-    <div >
-      <h2>#{sentence}</h2>
-      <ul>#{messages}</ul>
+    <div class="alert alert-danger" role="alert">
+      <!--<h2>#{sentence}</h2>-->
+      <ul>
+        #{messages}
+      </ul>
     </div>
     HTML
 
