@@ -17,12 +17,20 @@ $panel-default-heading-bg: #9DDDC0;
 $panel-default-border:  #9DDDC0;
 $panel-default-text: white;
 
+$panel-success-heading-bg: #ecf0f1;
+$panel-success-border:  #fff;
+
 $input-border-focus:#9DDDC0;
+
 
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+.panel-pin{
+	background-color: #FFF;
+	b:white;
+}
 .center {
      text-align: center;
 }
