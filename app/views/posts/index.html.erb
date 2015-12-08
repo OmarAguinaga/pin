@@ -7,7 +7,7 @@
 
       <div class ="panel-body">
         <%= post.description %><br>
-        <strong><%= post.user.email if post.user %></strong>
+        <strong><%= post.user.name if post.user %></strong>
         
 
         <%if post.user == current_user %>
